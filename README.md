@@ -13,8 +13,6 @@ TO-DO:
  
 Given two sample data sets as inputs, a and b, devise an algorithm that outputs a file that maps a__company.vendor_id to b__company.b_entity_id, including a confidence_of_match metric.
 
-Usually I would include a Requirements.txt and setup.py file paired with the main script, but in the interest of time and simplicity, just ensure that you have the handful of packages labeled below preinstalled.
-
 2. Technology & Packages
 
 This script uses Python 3.8, and the following Python packages;
@@ -24,17 +22,7 @@ This script uses Python 3.8, and the following Python packages;
 - itertools
 - NLTK
 
-
-3. Instructions
-
-Run the company_matcher.py script in a folder that also contains the unpacked /data/ folder containing the 5 interview datasets. This will produce a csv file with 5 columns; vendor_id from dataset a, matched with b_entity_id from dataset b, the names of each company, and a confidence score from 0 to 1, 1 being a 100% match.
-
-***Example***
-python company_matcher.py
-
-
-
-4. Methodology
+3. Methodology
 
     A. Data Exploration & Findings
     B. Parsing & Tokenization
